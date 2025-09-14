@@ -136,8 +136,18 @@ Route::get('/about', function () {
         ],
     ];
     $developers = [
-        ['nama' => 'A'],
-        ['nama' => 'B'],
+        [
+            'nama' => 'A',
+            'foto' => '/img/dev1.jpg'
+        ],
+        [
+            'nama' => 'B',
+            'foto' => '/img/dev2.jpg'
+        ],
+        [
+            'nama' => 'C',
+            'foto' => '/img/dev3.jpg'
+        ],
     ];
     return view('about', compact('bands', 'musik', 'developers'));
 });
