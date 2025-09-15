@@ -70,9 +70,12 @@
         <div class="text-center mb-5">
             <h2 class="text-4xl font-bold text-white drop-shadow-lg">Band HINDIA</h2>
         </div>
-        <div class="row align-items-center bg-white bg-opacity-10 rounded-3xl shadow-lg p-4 mb-5">
-            <div class="col-md-4 text-center">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Hindia_2022.jpg" alt="HINDIA" class="rounded-2xl shadow-lg w-60 mx-auto border-4 border-pink-400">
+        <div class="row align-items-center shadow-lg p-4 mb-5">
+            <div class="col-md-2 text-center">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxt-k7S5qalsIb-57AyRlElKIKZrSU0cTBfXcnfHfgaV5JoT7AS9RTZtY52QuO1NrD90w&usqp=CAUx"
+                     alt="HINDIA"
+                     class="rounded-full shadow-lg mx-auto border-4 border-pink-400 object-cover"
+                     style="width: 160px; height: 160px; background: #fff; box-shadow: 0 4px 24px rgba(221,36,118,0.15);">
             </div>
             <div class="col-md-8 text-white">
                 <p class="text-lg mb-2">
@@ -93,38 +96,44 @@
                     <span class="text-4xl mb-2">🎶</span>
                     <h4 class="font-bold">Secukupnya</h4>
                     <div class="text-sm text-pink-200">Album: Menari Dengan Bayangan</div>
-                    <div class="text-xs text-gray-300">2019</div>
+                    <div class="text-xs text-gray-300 mb-2">2019</div>
                 </div>
                 <div class="music-card p-4 flex flex-col items-center">
                     <span class="text-4xl mb-2">🎶</span>
                     <h4 class="font-bold">Evaluasi</h4>
                     <div class="text-sm text-pink-200">Album: Menari Dengan Bayangan</div>
-                    <div class="text-xs text-gray-300">2019</div>
+                    <div class="text-xs text-gray-300 mb-2">2019</div>
                 </div>
                 <div class="music-card p-4 flex flex-col items-center">
                     <span class="text-4xl mb-2">🎶</span>
                     <h4 class="font-bold">Rumah ke Rumah</h4>
                     <div class="text-sm text-pink-200">Album: Menari Dengan Bayangan</div>
-                    <div class="text-xs text-gray-300">2019</div>
+                    <div class="text-xs text-gray-300 mb-2">2019</div>
                 </div>
                 <div class="music-card p-4 flex flex-col items-center">
                     <span class="text-4xl mb-2">🎶</span>
                     <h4 class="font-bold">Belum Tidur</h4>
                     <div class="text-sm text-pink-200">Album: Menari Dengan Bayangan</div>
-                    <div class="text-xs text-gray-300">2019</div>
+                    <div class="text-xs text-gray-300 mb-2">2019</div>
                 </div>
                 <div class="music-card p-4 flex flex-col items-center">
                     <span class="text-4xl mb-2">🎶</span>
                     <h4 class="font-bold">Dehidrasi</h4>
                     <div class="text-sm text-pink-200">Album: Menari Dengan Bayangan</div>
-                    <div class="text-xs text-gray-300">2019</div>
+                    <div class="text-xs text-gray-300 mb-2">2019</div>
+                </div>
+                <div class="music-card p-4 flex flex-col items-center">
+                    <span class="text-4xl mb-2">🎶</span>     
+                    <h4 class="font-bold">Kita ke Sana</h4>
+                    <div class="text-sm text-pink-200">Album: Lagipula Hidup Akan Berakhir</div>
+                    <div class="text-xs text-gray-300 mb-2">2023</div>
                 </div>
             </div>
         </div>
     </div>
 
     <footer class="music-theme text-center py-4 mt-5 rounded-t-3xl shadow-lg">
-        <p class="mb-0">&copy; 2025 MyMusic. All rights reserved.</p>
+        <p class="mb-0">&copy; 2025 MyMusic, Kelompok 7. All rights reserved.</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

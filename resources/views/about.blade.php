@@ -26,13 +26,14 @@
             box-shadow: 0 8px 32px #dd2476aa;
         }
         .dev-photo {
-            width: 100px;
-            height: 100px;
+            width: 110px;
+            height: 110px;
             object-fit: cover;
             border-radius: 9999px;
             border: 3px solid #ffb6d5;
             margin-bottom: 1rem;
             background: #fff;
+            box-shadow: 0 2px 12px #0002;
         }
         /* Navbar style match musik.blade.php */
         .navbar {
@@ -79,19 +80,30 @@
             <h1 class="text-3xl font-bold text-white drop-shadow-lg">Profil Pengembang</h1>
         </div>
         <div class="row justify-content-center">
-            @foreach($developers as $dev)
             <div class="col-md-4 mb-4">
                 <div class="dev-card p-4 text-center">
-                    <img src="{{ $dev['foto'] }}" alt="Foto {{ $dev['nama'] }}" class="dev-photo mx-auto">
-                    <h4 class="font-bold">{{ $dev['nama'] }}</h4>
+                    <img src="{{ asset('img/IMG_4868.jpg') }}" alt="Foto Pengembang 1" class="dev-photo mx-auto">
+                    <h4 class="font-bold">Muhammad Nabil</h4>
                     <div class="text-pink-200">Web Developer</div>
                 </div>
             </div>
-            @endforeach
+            <div class="col-md-4 mb-4">
+                <div class="dev-card p-4 text-center">
+                   <img src="{{ asset('img/WhatsApp Image 2025-09-15 at 11.21.45.jpeg') }}" alt="Foto Pengembang 1" class="dev-photo mx-auto">
+                    <h4 class="font-bold">Muhammad Hafizh Dwinanda</h4>
+                    <div class="text-pink-200">Web Developer</div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="dev-card p-4 text-center">
+                    <img src="{{ asset('img/WhatsApp Image 2025-09-15 at 11.21.05.jpeg') }}" alt="Foto Pengembang 1" class="dev-photo mx-auto">
+                    <h4 class="font-bold">Maria Meryana Christy</h4>
+                    <div class="text-pink-200">Web Developer</div>
+                </div>
+            </div>
         </div>
-    </div>
     <footer class="music-theme text-center py-4 mt-5 rounded-t-3xl shadow-lg">
-        <p class="mb-0">&copy; 2025 MyMusic. All rights reserved.</p>
+        <p class="mb-0">&copy; 2025 MyMusic, Kelompok 7. All rights reserved.</p>
     </footer>
 </body>
 </html>

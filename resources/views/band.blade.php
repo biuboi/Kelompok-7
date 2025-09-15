@@ -100,7 +100,19 @@
                     <span class="text-4xl mb-2 block">🎶</span>
                     <h4 class="font-bold">{{ $m['judul'] }}</h4>
                     <div class="text-pink-200">{{ $m['artis'] }}</div>
-                    <div class="text-xs text-gray-300">{{ $m['genre'] }} | {{ $m['tahun'] }}</div>
+                    <div class="text-xs text-gray-300 mb-2">{{ $m['genre'] }} | {{ $m['tahun'] }}</div>
+                    @if($m['judul'] == 'Secukupnya')
+                    @elseif($m['judul'] == 'Evaluasi')
+                    
+                    @elseif($m['judul'] == 'Rumah ke Rumah')
+                    
+                    @elseif($m['judul'] == 'Belum Tidur')
+
+                    @elseif($m['judul'] == 'Dehidrasi')
+                   
+                    @elseif($m['judul'] == 'Kita ke Sana')
+
+                    @endif
                 </div>
             </div>
             @endforeach
@@ -112,7 +124,7 @@
         </div>
     </div>
     <footer class="music-theme text-center py-4 mt-5 rounded-t-3xl shadow-lg">
-        <p class="mb-0">&copy; 2025 MyMusic. All rights reserved.</p>
+        <p class="mb-0">&copy; 2025 MyMusic, Kelompok 7. All rights reserved.</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

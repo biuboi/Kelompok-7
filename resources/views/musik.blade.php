@@ -77,7 +77,20 @@
                     <span class="text-4xl mb-2 block">🎶</span>
                     <h4 class="font-bold">{{ $m['judul'] }}</h4>
                     <div class="text-pink-200">{{ $m['artis'] }}</div>
-                    <div class="text-xs text-gray-300">{{ $m['genre'] }} | {{ $m['tahun'] }}</div>
+                    <div class="text-xs text-gray-300 mb-2">{{ $m['genre'] }} | {{ $m['tahun'] }}</div>
+                    @if($m['judul'] == 'Secukupnya')
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/5drW6PGRxkE6MxttzVLNk5?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    @elseif($m['judul'] == 'Evaluasi')
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2dIBMHByUGcNPzmYBJ6OAj?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    @elseif($m['judul'] == 'Rumah ke Rumah')
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2wAiFWjRupWmnDkQcu91MF?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    @elseif($m['judul'] == 'Belum Tidur')
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/0ufk0A6oErK7oAgeMZWJFg?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    @elseif($m['judul'] == 'Dehidrasi')
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/4qOpQXiEDEvt8MhYCGcwB6?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    @elseif($m['judul'] == 'Kita ke Sana')
+                    
+                    @endif
                 </div>
             </div>
             @endforeach
@@ -113,7 +126,7 @@
         </div>
     </div>
     <footer class="music-theme text-center py-4 mt-5 rounded-t-3xl shadow-lg">
-        <p class="mb-0">&copy; 2025 MyMusic. All rights reserved.</p>
+        <p class="mb-0">&copy; 2025 MyMusic, Kelompok 7. All rights reserved.</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
